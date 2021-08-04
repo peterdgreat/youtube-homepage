@@ -1,0 +1,52 @@
+body{
+    background-color: #181818;
+    color: #FFFFFF;
+}
+
+
+.nav{
+  
+
+  height: 60px;
+  color: #FFFFFF;
+  background-color: #202020;
+ 
+}
+.nav-link{
+    display: inline;
+padding: 0;
+margin: 0;
+
+}
+.nav-item{
+  margin-top: .5em;
+}
+.nav-link span{
+    color: #FFFFFF;
+}
+.input-group input{
+    background-color: #121212;
+    border-color: #323232;
+}
+.input-group-append span,.input-group-append span img{
+    background-color: #323232;
+    border-color:  #323232;;
+}
+.container{
+    margin-top: 1em;
+}
+
+.col-xs-7{
+    margin-left: 8em;
+}
+
+@media screen and (max-width:640px){
+.date{
+    display: none;
+}
+}
+@media screen and (max-width:560px){
+    .col-xs-7{
+        margin-left: 5em;
+    }
+    }
