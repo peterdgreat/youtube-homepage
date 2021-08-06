@@ -1,90 +1,666 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">      <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+        <link rel="stylesheet" href="style.css" />
     <title>Document</title>
-</head>
-<body>
-    <ul class="nav ">
-        
-        <li class="nav-item">
-          <a class="nav-link" href="#"><img src="/img/menu_white_24dp.svg" alt="" srcset=""></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#"> <span>
-            <img src="/img/youtube.png" alt="" srcset=""> <span>YouTube</span> 
-        </span></a>
-        </li>
-        <li class="nav-item">
-            <div class="input-group mb-3">
-                <input type="text" class="form-control" placeholder="search" aria-label="Recipient's username" aria-describedby="basic-addon2">
+  </head>
+  <body>
+    <ul class="nav">
+      <div class="flex-1">
 
-                <div class="input-group-append">
-                  <span class="input-group-text" id="basic-addon2"><img src="/img/search_white_24dp.svg" alt="" srcset=""></span>
-                </div>
-              </div>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#"><img src="/img/mic_white_24dp.svg" alt="" srcset=""></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"><img src="/img/video_call_white_24dp.svg" alt="" srcset=""></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"><img src="/img/apps_white_24dp.svg" alt="" srcset=""></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"><img src="/img/notifications_white_24dp.svg" alt="" srcset=""></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#"><img src="/img/account_circle_white_24dp.svg" alt="" srcset=""></a>
-          </li>
-
-      </ul>
-
-      <main>
-          <div class="container">
-              <div class="row">
+     
+      <li class="nav-item">
+        <a class="nav-link" href="#"
+          >
+          <span class="material-icons nav-icon" >
+            menu
+            </span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">
+          <span>
+            <img src="/img/youtube.png" alt="" srcset="" /> <span>YouTube</span>
+          </span></a
+        >
+      </li>
+    </div>
+    <div class="flex-2">
 
   
-              <div class="col-md-8">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/htqXL94Rza4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <div class="label">
-<h6>#6 ON TRENDING</h6>
-<h6>Money Heist: Part 5 Vol.| Netlix</h6>
-   <div class="row">
-       <div class="col-xs-5"> 4,163,071 views <span class="date"> . Aug 2,2021</span>  </div>
-       <div class="col-xs-7">
-           <div>
-               <span>
-                <img src="/img/thumb_up_white_24dp.svg" alt="" srcset="">243k
-                <img src="/img/thumb_down_white_24dp.svg" alt="" srcset=""> 2k   <img src="/img/share_white_24dp.svg" alt="" srcset="">SHARE
-              
-               </span>
-     <img src="/img/playlist_add_white_24dp.svg" alt="" srcset="">SAVE
-     <img src="/img/more_horiz_white_24dp.svg" alt="" srcset="">
-    </div>
+      <li class="nav-item">
+        <div class="input-group mb-3">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="search"
+          
+            aria-describedby="basic-addon2"
+          />
 
-   <div>
+          <div class="input-group-append">
+            <span class="input-group-text" id="basic-addon2"
+              ><img src="/img/search_white_24dp.svg" alt="" srcset=""
+            /></span>
+          </div>
+        </div>
+      </li>
+    </div>
+    <div class="flex-1">
+
+   
+      <li class="nav-item">
+        <a class="nav-link" href="#"
+          ><span class="material-icons nav-icon" >
+            mic
+            </span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"
+          ><span class="material-icons nav-icon" >
+            video_call
+            </span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"
+          ><span class="material-icons nav-icon" >
+            apps
+            </span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"
+          ><span class="material-icons nav-icon" >
+            notifications
+            </span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"
+          >    <img id="img-border" class="style-scope yt-img-shadow" alt="Ajayi Peter O" height="40" width="40" src="https://yt3.ggpht.com/yti/APfAmoE1fkYzGEYMF35DVVAOobEPSJxKr1IQ-5EUcZr5IQ=s48-c-k-c0x00ffffff-no-rj">
+        </a>
+      </li>
+    </div>
+    </ul>
+
+    <main>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/htqXL94Rza4"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+            <section class="width"> 
+              <div >
+                <div class="label">
+                  <h6 class="trend">#6 ON TRENDING</h6>
+                  <h6 class="title">Money Heist: Part 5 Vol.1 | Official Trailer | Netlix</h6>
+                </div>
+                  <div   class="container-grid f-underline">
+                    <div class="flex-1">
+                      5.4M views <span class="date"> Aug 2,2021</span>
+                    </div>
+                    <div class="flex-2">
+                      <div>
+                        <span class="underline">
+                         
+                          <span class="material-icons inf">
+                            thumb_up 
+                            </span><span class="">243k</span>
+                          
+                            <span class="material-icons inf">
+                              thumb_down
+                              </span>
+                          2k
+                         
+                           
+                        </span>
+                        <span class="material-icons inf">
+                          share 
+                          </span>SHARE
+                        <span class="material-icons inf">
+                          playlist_add 
+                          </span>SAVE
+                          <span class="material-icons inf">
+                            more_horiz 
+                            </span>
+                           
+                      </div>
+              
+                  
+                    </div>
+                  </div>
+               
+              </div>
+                        </section>
+                        <section class="container-grid mt-4">
+                         
+                          <div class="grid-1">
+                            <yt-img-shadow id="avatar" class="style-scope ytd-video-owner-renderer no-transition" style="background-color: transparent;" loaded=""><!--css-build:shady--><img id="img-border" class="style-scope yt-img-shadow" alt="" width="48" src="https://yt3.ggpht.com/ytc/AKedOLQgL1jBVAGEEGwBzmLV38AWj0_yrdPw0vDxdpce0A=s48-c-k-c0x00ffffff-no-rj"></yt-img-shadow>
+                           
+                          </div>
+              <div class="grid-2">
+              <h6>Netflix </h6>
+              <h6 class="subsc">20.8M subscribers</h6>
+              <p>Surrendering is not an option.
+                Money Heist returns with Part 5: Vol. 1, September 3, only on Netflix.
+                </p>
+                <h6 class="more">SHOW MORE</h6> 
+              </div>
+              <div class="grid-3">
+              <button type="button" class="btn-subscr">SUBSCRIBE</button>
+            
+              </div>
+                      </section>   
        
-   </div> <div></div></div>
-   </div>     
-</div>
+       
+                      <div class="lg-c">
+                        <div class="comm-val">
+
+                       
+                          <span class="n-comm">
+                            11,375 Comments
+                          </span>
+                          <span><span class="material-icons inf" >
+                            sort
+                            </span>SORT BY</span>
+                        </div>
+                            <div class="comment-flex">
+                              <div class="comment-flex-1">
+                                <img id="img-border" class="style-scope yt-img-shadow" alt="Ajayi Peter O" height="40" width="40" src="https://yt3.ggpht.com/yti/APfAmoE1fkYzGEYMF35DVVAOobEPSJxKr1IQ-5EUcZr5IQ=s48-c-k-c0x00ffffff-no-rj">
+                              </div>
+                              <div class="comment-flex-2">   
+                                 <div class=" mb-3">
+                                <input
+                                  type="text"
+                                  class="add-comment"
+                                  placeholder="Add a public comment"
+                                
+                                  aria-describedby="basic-addon2"
+                                />
+                      
+                                <div class="input-group-append">
+                                 
+                                </div>
+                              </div>
+                              <div class="comment-btn">
+                  
+                           
+                            <button type="button" class="btn cancel">
+                  CANCEL
+                            </button>
+                            <button type="button" class="btn comment">
+                              COMMENT
+                            </button>
+                          </div>
+                            </div>
+                            </div>
+                            <div class="comment-flex">
+                              <div class="comment-flex-1">
+                                <img id="img-border" class="style-scope yt-img-shadow" alt="BEATBOX SHORTS" height="40" width="40" src="https://yt3.ggpht.com/ytc/AKedOLQGsR1DdvKQNmO1BeQTs7QRKd_QiKEx52bK_hY2=s48-c-k-c0x00ffffff-no-rj">             </div>
+                              <div class="comment-flex-2">  
+                                <h6>
+                                  BEATBOX SHORTS <span>2 days ago</span>
+                                </h6> 
+                        <p>
+                          The only professor I have listened to . Can't wait for sep 3 🥵
+                        </p>
+                        <span>
+                          <span class="material-icons inf" style="font-size: 18px; color: #AAAAAA ;" >
+                            thumb_up
+                            </span> 1.5k
+                            <span class="material-icons inf" style="font-size: 18px; color: #AAAAAA ;" >
+                              thumb_down
+                              </span> 
+                        REPLY
+                        </span>
+                            </div>
+                            </div>
+                            <div class="comment-flex">
+                              <div class="comment-flex-1">
+                                <img id="img-border" class="style-scope yt-img-shadow" alt="Kris D" height="40" width="40" src="https://yt3.ggpht.com/ytc/AKedOLS92XI1ecxr3XJT5pBQw6YIE8korxTdLMjjn0Up=s48-c-k-c0x00ffffff-no-rj">         </div>
+                              <div class="comment-flex-2">  
+                                <h6>
+                                  KRIS D <span>1 day ago</span>
+                                </h6> 
+                        <p>
+                          The dislikes are from the people who attended Arturo's motivational speech
+                        </p>
+                        <span>
+                          <span class="material-icons inf" style="font-size: 18px; color: #AAAAAA ;" >
+                            thumb_up
+                            </span> 879
+                            <span class="material-icons inf" style="font-size: 18px; color: #AAAAAA ;" >
+                              thumb_down
+                              </span> 
+                        REPLY
+                        </span>
+                            </div>
+                            </div>
+                            <div class="comment-flex">
+                              <div class="comment-flex-1">
+                                <img id="img-border" class="style-scope yt-img-shadow" alt="Lina Sarmin" height="40" width="40" src="https://yt3.ggpht.com/ytc/AKedOLQBJZb6XEWAAYzorqCzSF9oibmpVbdv17CwqJ4s=s48-c-k-c0x00ffffff-no-rj">            </div>
+                              <div class="comment-flex-2">  
+                                <h6>
+                                  Lina Sarmin <span>18 hrs ago</span>
+                                </h6> 
+                        <p>
+                          My God! That BGM give me Goosebump
+                        </p>
+                        <span>
+                          <span class="material-icons inf" style="font-size: 18px; color: #AAAAAA ;" >
+                            thumb_up
+                            </span> 33
+                            <span class="material-icons inf" style="font-size: 18px; color: #AAAAAA ;" >
+                              thumb_down
+                              </span> 
+                        REPLY
+                        </span>
+                            </div>
+                            </div>
+                            <div class="comment-flex">
+                              <div class="comment-flex-1">
+                                <img id="img-border" class="style-scope yt-img-shadow" alt="sulaiman djezzy" height="40" width="40" src="https://yt3.ggpht.com/ytc/AKedOLSq3COpc7b5HuhD9oZ2baGG4RdEz7jTwCIq_SP0=s48-c-k-c0x00ffffff-no-rj">             </div>
+                              <div class="comment-flex-2">  
+                                <h6>
+                                  Sulaiman Jezzy <span>1 day ago</span>
+                                </h6> 
+                        <p>
+                          There should be another season just to watch Berlin alone
+                        </p>
+                        <span>
+                          <span class="material-icons inf" style="font-size: 18px; color: #AAAAAA ;" >
+                            thumb_up
+                            </span> 58
+                            <span class="material-icons inf" style="font-size: 18px; color: #AAAAAA ;" >
+                              thumb_down
+                              </span> 
+                        REPLY
+                        </span>
+                            </div>
+                            </div>
+                            <div class="comment-flex">
+                              <div class="comment-flex-1">
+                                <img id="img-border" class="style-scope yt-img-shadow" alt="Patrick" height="40" width="40" src="https://yt3.ggpht.com/_xGLhTcxKaH9Lrhj-nvQtJiSSPGTeVC6hDQUEbOIC7mRmmQBTBqL0dHlgXy8oj7FYcO91_B27TE=s48-c-k-c0x00ffffff-no-rj">            </div>
+                              <div class="comment-flex-2">  
+                                <h6>
+                                  Patrick <span>21hrs ago</span>
+                                </h6> 
+                        <p>
+                          Money heist has the most intense and dramatic scenes and its so goood
+                        </p>
+                        <span>
+                          <span class="material-icons inf" style="font-size: 18px; color: #AAAAAA ;" >
+                            thumb_up
+                            </span> 21
+                            <span class="material-icons inf" style="font-size: 18px; color: #AAAAAA ;" >
+                              thumb_down
+                              </span> 
+                        REPLY
+                        </span>
+                            </div>
+                            </div>
+                      </div>
+                    </div>
+       
+          <div class="col-lg-4">
+          <button type="button" class="btn btn-active">All</button>
+          <button type="button" class="btn btn-unactive">From Your search</button>
+          <button type="button" class="btn btn-unactive">Related</button>
+      <div class="video-list">
+        <div class="thumbnail">
+
+   
+      
+          <div class="thumbnail-img">
+  
+         <a href="https://www.youtube.com/watch?v=bN2YwwF35rI">
+        
+         <img id="img" class="style-scope yt-img-shadow" alt="" width="168" src="https://i.ytimg.com/vi/bN2YwwF35rI/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&amp;rs=AOn4CLAo87mClVMvV4An-l5HW4CH5Lxzpw">
+        <div class="duration">
+  <span>11.34</span>
+        </div>
+      </div>
+      <div class="thumbnail-details">
+        <h6>Money Heist Real Life Partner Revealed!</h6>
+        <p>OSSA</p>
+        <p>5.5M views . 1 year ago</p>
+
+         </a>
+      </div>
+       
+     
+        </div>
+    <div class="thumbnail">
+
+   
+      
+        <div class="thumbnail-img">
+
+       <a href="https://www.youtube.com/watch?v=KHLVuyjzWZ4">
+      
+        <img id="img" class="style-scope yt-img-shadow" alt="" width="168" src="https://i.ytimg.com/vi/KHLVuyjzWZ4/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&amp;rs=AOn4CLDM3jz4wh_5XvRRLi_wblNgPzQhPQ">      <div class="duration">
+<span>32:49</span>
+      </div>
+    </div>
+    <div class="thumbnail-details">
+      <h6>Real Mind-Reader Oz Pearlman The Mentalist On America Got Talent</h6>
+      <p>Magicians Got Talent</p>
+      <p>12M views . 2 years ago</p>
+       </a>
+    </div>
+     
+   
+      </div>
+      <div class="thumbnail">
+
+   
+      
+        <div class="thumbnail-img">
+
+       <a href="https://www.youtube.com/watch?v=KyNmkJqzQJo">
+      
+        <img id="img" class="style-scope yt-img-shadow" alt="" width="168" src="https://i.ytimg.com/vi/KyNmkJqzQJo/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&amp;rs=AOn4CLBrWUAbq60ScPqG8TDiw3hRfwqp9g">     <div class="duration">
+<span>8:06</span>
+      </div>
+    </div>
+    <div class="thumbnail-details">
+      <h6>7 Shows Just Like Money Heist (Must Watch)</h6>
+      <p>Until Now</p>
+      <p>1.4M views . 1 year ago</p>
+       </a>
+    </div>
+     
+   
+      </div>
+      <div class="thumbnail">
+
+   
+      
+        <div class="thumbnail-img">
+
+       <a href="https://www.youtube.com/watch?v=ezLC80durqc">
+      
+        <img id="img" class="style-scope yt-img-shadow" alt="" width="168" src="https://i.ytimg.com/vi/ezLC80durqc/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&amp;rs=AOn4CLCYPLuyT6FN9xlL3UkHv-6S1ar-aw">     <div class="duration">
+<span>5:52</span>
+      </div>
+    </div>
+    <div class="thumbnail-details">
+      <h6>Top 7 Best Netflix Series To Watch</h6>
+      <p>CNext</p>
+      <p>113k views . 1 Week ago</p>
+       </a>
+    </div>
+     
+   
+      </div>
+      <div class="thumbnail">
+
+   
+      
+        <div class="thumbnail-img">
+
+       <a href="https://www.youtube.com/watch?v=e4Uq8O5ZhUA">
+      
+        <img id="img" class="style-scope yt-img-shadow" alt="" width="168" src="https://i.ytimg.com/vi/e4Uq8O5ZhUA/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&amp;rs=AOn4CLCxqBCCiQ-UpvzPSv8zyEZl0oRDzA">
+      <div class="duration">
+<span>4:27</span>
+      </div>
+    </div>
+    <div class="thumbnail-details">
+      <h6>Game Of Thrones| Epic Trion Speech During Trial</h6>
+      <p>Devent</p>
+      <p>14M views . 7 years ago</p>
+
+       </a>
+    </div>
+     
+   
+      </div>
+  <div class="thumbnail">
+
+ 
+    
+      <div class="thumbnail-img">
+
+     <a href="https://www.youtube.com/watch?v=KHLVuyjzWZ4">
+    
+      <img id="img" class="style-scope yt-img-shadow" alt="" width="168" src="https://i.ytimg.com/vi/Kn3uZ6-jSWI/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&amp;rs=AOn4CLCEKcg1d5is4_k5sf_Bq23JlBAjuw">     <div class="duration">
+<span>9:19</span>
+    </div>
+  </div>
+  <div class="thumbnail-details">
+    <h6>Luckiest People Caught On Camera</h6>
+    <p>CubeHub01</p>
+    <p>35M views . 11 Months ago</p>
+     </a>
+  </div>
+   
+ 
+    </div>
+    <div class="thumbnail">
+
+ 
+    
+      <div class="thumbnail-img">
+
+     <a href="https://www.youtube.com/watch?v=rrwBnlYOp4g">
+    
+      <img id="img" class="style-scope yt-img-shadow" alt="" width="168" src="https://i.ytimg.com/vi/rrwBnlYOp4g/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&amp;rs=AOn4CLDIvqMApDGT-oABDqs6o7ML1-cfQg">     <div class="duration">
+<span>2:56</span>
+    </div>
+  </div>
+  <div class="thumbnail-details">
+    <h6>VENOM 2 Official Trailer(2021)</h6>
+    <p>ONE Media</p>
+    <p>34M views . 2 Months ago</p>
+     </a>
+  </div>
+   
+ 
+    </div>
+    <div class="thumbnail">
+
+ 
+    
+      <div class="thumbnail-img">
+
+     <a href="https://www.youtube.com/watch?v=lexF29qvOCQ">
+    
+      <img id="img" class="style-scope yt-img-shadow" alt="" width="168" src="https://i.ytimg.com/vi/lexF29qvOCQ/hqdefault.jpg?sqp=-oaymwEbCKgBEF5IVfKriqkDDggBFQAAiEIYAXABwAEG&amp;rs=AOn4CLBMODqNi1-jLrC5GDprDqhMG3fhyA">    <div class="duration">
+<span>32:49</span>
+    </div>
+  </div>
+  <div class="thumbnail-details">
+    <h6>Hillarious Impressionist</h6>
+    <p>Top Viral Talent</p>
+    <p>14M views . 4 years ago</p>
+     </a>
+  </div>
+   
+ 
+    </div>
+      </div>
+    
+    <div class="sm-c">
+      <div class="comm-val">
+
+                       
+        <span class="n-comm">
+          11,375 Comments
+        </span>
+        <span><span class="material-icons inf" >
+          sort
+          </span>SORT BY</span>
+      </div>
+          <div class="comment-flex">
+            <div class="comment-flex-1">
+              <img id="img-border" class="style-scope yt-img-shadow" alt="Ajayi Peter O" height="40" width="40" src="https://yt3.ggpht.com/yti/APfAmoE1fkYzGEYMF35DVVAOobEPSJxKr1IQ-5EUcZr5IQ=s48-c-k-c0x00ffffff-no-rj">
             </div>
-              <div class="col-md-4">
-                  <h1>333</h1>
+            <div class="comment-flex-2">   
+               <div class=" mb-3">
+              <input
+                type="text"
+                class="add-comment"
+                placeholder="Add a public comment"
+              
+                aria-describedby="basic-addon2"
+              />
+    
+              <div class="input-group-append">
+               
               </div>
             </div>
+            <div class="comment-btn">
+
+         
+          <button type="button" class="btn cancel">
+CANCEL
+          </button>
+          <button type="button" class="btn comment">
+            COMMENT
+          </button>
+        </div>
           </div>
-      </main>
-   
+          </div>
+          <div class="comment-flex">
+            <div class="comment-flex-1">
+              <img id="img-border" class="style-scope yt-img-shadow" alt="BEATBOX SHORTS" height="40" width="40" src="https://yt3.ggpht.com/ytc/AKedOLQGsR1DdvKQNmO1BeQTs7QRKd_QiKEx52bK_hY2=s48-c-k-c0x00ffffff-no-rj">             </div>
+            <div class="comment-flex-2">  
+              <h6>
+                BEATBOX SHORTS <span>2 days ago</span>
+              </h6> 
+      <p>
+        The only professor I have listened to . Can't wait for sep 3 🥵
+      </p>
+      <span>
+        <span class="material-icons inf" style="font-size: 18px; color: #AAAAAA ;" >
+          thumb_up
+          </span> 1.5k
+          <span class="material-icons inf" style="font-size: 18px; color: #AAAAAA ;" >
+            thumb_down
+            </span> 
+      REPLY
+      </span>
+          </div>
+          </div>
+          <div class="comment-flex">
+            <div class="comment-flex-1">
+              <img id="img-border" class="style-scope yt-img-shadow" alt="Kris D" height="40" width="40" src="https://yt3.ggpht.com/ytc/AKedOLS92XI1ecxr3XJT5pBQw6YIE8korxTdLMjjn0Up=s48-c-k-c0x00ffffff-no-rj">         </div>
+            <div class="comment-flex-2">  
+              <h6>
+                KRIS D <span>1 day ago</span>
+              </h6> 
+      <p>
+        The dislikes are from the people who attended Arturo's motivational speech
+      </p>
+      <span>
+        <span class="material-icons inf" style="font-size: 18px; color: #AAAAAA ;" >
+          thumb_up
+          </span> 879
+          <span class="material-icons inf" style="font-size: 18px; color: #AAAAAA ;" >
+            thumb_down
+            </span> 
+      REPLY
+      </span>
+          </div>
+          </div>
+          <div class="comment-flex">
+            <div class="comment-flex-1">
+              <img id="img-border" class="style-scope yt-img-shadow" alt="Lina Sarmin" height="40" width="40" src="https://yt3.ggpht.com/ytc/AKedOLQBJZb6XEWAAYzorqCzSF9oibmpVbdv17CwqJ4s=s48-c-k-c0x00ffffff-no-rj">            </div>
+            <div class="comment-flex-2">  
+              <h6>
+                Lina Sarmin <span>18 hrs ago</span>
+              </h6> 
+      <p>
+        My God! That BGM give me Goosebump
+      </p>
+      <span>
+        <span class="material-icons inf" style="font-size: 18px; color: #AAAAAA ;" >
+          thumb_up
+          </span> 33
+          <span class="material-icons inf" style="font-size: 18px; color: #AAAAAA ;" >
+            thumb_down
+            </span> 
+      REPLY
+      </span>
+          </div>
+          </div>
+          <div class="comment-flex">
+            <div class="comment-flex-1">
+              <img id="img-border" class="style-scope yt-img-shadow" alt="sulaiman djezzy" height="40" width="40" src="https://yt3.ggpht.com/ytc/AKedOLSq3COpc7b5HuhD9oZ2baGG4RdEz7jTwCIq_SP0=s48-c-k-c0x00ffffff-no-rj">             </div>
+            <div class="comment-flex-2">  
+              <h6>
+                Sulaiman Jezzy <span>1 day ago</span>
+              </h6> 
+      <p>
+        There should be another season just to watch Berlin alone
+      </p>
+      <span>
+        <span class="material-icons inf" style="font-size: 18px; color: #AAAAAA ;" >
+          thumb_up
+          </span> 58
+          <span class="material-icons inf" style="font-size: 18px; color: #AAAAAA ;" >
+            thumb_down
+            </span> 
+      REPLY
+      </span>
+          </div>
+          </div>
+          <div class="comment-flex">
+            <div class="comment-flex-1">
+              <img id="img-border" class="style-scope yt-img-shadow" alt="Patrick" height="40" width="40" src="https://yt3.ggpht.com/_xGLhTcxKaH9Lrhj-nvQtJiSSPGTeVC6hDQUEbOIC7mRmmQBTBqL0dHlgXy8oj7FYcO91_B27TE=s48-c-k-c0x00ffffff-no-rj">            </div>
+            <div class="comment-flex-2">  
+              <h6>
+                Patrick <span>21hrs ago</span>
+              </h6> 
+      <p>
+        Money heist has the most intense and dramatic scenes and its so goood
+      </p>
+      <span>
+        <span class="material-icons inf" style="font-size: 18px; color: #AAAAAA ;" >
+          thumb_up
+          </span> 21
+          <span class="material-icons inf" style="font-size: 18px; color: #AAAAAA ;" >
+            thumb_down
+            </span> 
+      REPLY
+      </span>
+          </div>
+          </div>
+    </div>
+    </div>
+      </div>
+      
+    </main>
 
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
-</body>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
